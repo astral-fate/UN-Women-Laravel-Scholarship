@@ -12,12 +12,15 @@
 to create a new project
 
 heading to htdoc then open a new command then write:
-
+```
 laravel new application
+```
 
 to open the server, open a new termenal and write
 
+```
 php artisan serve
+```
 ## Routes
 
 

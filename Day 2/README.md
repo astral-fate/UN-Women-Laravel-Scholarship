@@ -6,13 +6,20 @@
 - [CURD Opperations](#CURD-Opperations)
 - [Assignment](#Assignment)
 
+
+## Running Laravel server
+
+to create a new project
+
+heading to htdoc then open a new command then write:
+
+laravel new application
+
+to open the server, open a new termenal and write
+
+php artisan serve
 ## Routes
-![image](https://github.com/user-attachments/assets/ecd6d8fe-2d39-4511-88be-bc2e551a40a6)
 
-![image](https://github.com/user-attachments/assets/35a82066-78b4-465f-821d-1e4fb84fe588)
-
-
-![image](https://github.com/user-attachments/assets/dda72ffe-3500-4fcb-924e-be573305f11d)
 
 ## Assignment
 create routes with the following uri

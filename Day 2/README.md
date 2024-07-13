@@ -12,6 +12,8 @@
 ![image](https://github.com/user-attachments/assets/35a82066-78b4-465f-821d-1e4fb84fe588)
 
 
+![image](https://github.com/user-attachments/assets/dda72ffe-3500-4fcb-924e-be573305f11d)
+
 ## Assignment
 create routes with the following uri
 

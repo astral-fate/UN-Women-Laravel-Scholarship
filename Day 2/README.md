@@ -1,9 +1,5 @@
 ## Table of Contents
 - [Routes](#Orentations)
-- [PHP Fundmentals](#PHP-Fundmentals)
-- [Larvel Framework](#Larvel-Framework)
-- [Course Projects](#Course-Projects)
-- [CURD Opperations](#CURD-Opperations)
 - [Assignment](#Assignment)
 
 

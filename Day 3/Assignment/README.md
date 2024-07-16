@@ -1,4 +1,32 @@
 
+
+# Assignment
+
+### HTML Form 
+
+In the HTML form, we changed the method into 'POST' and we passed the route, as follow:
+
+```
+<form action="{{route('logindone')}}" method="POST">
+    @csrf
+```
+### Routes
+
+In the routes folder, we created a new route as follow:
+
+```
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::post('/logindone', function(){
+    return 'data sumbited correctly';
+    return view('logincheck');
+}) ->name('logindone');
+
+```
+
+
 ## Github configuration to push code 
 
 

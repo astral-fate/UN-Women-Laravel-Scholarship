@@ -2,8 +2,7 @@
 ## Table of Contents
 - [Fallback](#Fallback)
 - [View](#View)
-- [Constraints](#cCnstraints)
-- [prefix group](#prefix-group)
+- [Controller](#Controller)
 - [Assignment](#Assignment)
 
 ## Fallback
@@ -57,3 +56,7 @@ Route: :get('welcome', function () {
          })->name('w');
 
 ```
+
+#### Example
+
+We used a form, using this tamplete [login form](https://www.w3schools.com/bootstrap/bootstrap_forms.asp) to send a route.

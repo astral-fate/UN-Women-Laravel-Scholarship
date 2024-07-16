@@ -60,3 +60,10 @@ Route: :get('welcome', function () {
 #### Example
 
 We used a form, using this tamplete [login form](https://www.w3schools.com/bootstrap/bootstrap_forms.asp) to send a route.
+
+
+
+## Assignment
+
+Use the html file and create a blade file then send the data to another page,
+try to make the data appears in page, try to request a review for code.

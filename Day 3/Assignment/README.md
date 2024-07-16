@@ -5,7 +5,7 @@
 ### Step 1: navigate to xampp project
 
 ```
-cd /c/xampp/htdocs/advance
+cd /c/xampp/htdocs/Day3
 ```
 
 ## Step 2 clone repo

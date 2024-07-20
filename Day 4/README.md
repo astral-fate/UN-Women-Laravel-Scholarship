@@ -19,6 +19,10 @@ to set up the configration of the databse, we shall check the file ``` .env ```.
 
 ``` php artisan migrate ```
 
+Now we have the cars table in our db
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/f0a94e6c-2f44-46f2-85e2-3e2ee61119a1">
+
 
 ## CURD operations
 

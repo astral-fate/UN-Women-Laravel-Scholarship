@@ -27,13 +27,13 @@ Route::post('/logindone', function(){
 ```
 
 
-## Github configuration to push code 
+## Github configuration to push code using Poershell
 
 
 ### Step 1: navigate to xampp project
 
 ```
-cd /c/xampp/htdocs/Day3
+cd C:\xampp\htdocs\Day3
 ```
 
 ## Step 2 clone repo

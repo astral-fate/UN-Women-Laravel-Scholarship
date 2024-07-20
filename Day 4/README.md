@@ -72,6 +72,10 @@ class Car extends Model
 }
 ```
 
+We will make a new controller, using the command
+``` php artisan make:controller CarController -r ```
+
+
 ## Assignment
 
 create classes

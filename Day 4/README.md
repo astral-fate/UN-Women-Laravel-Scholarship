@@ -11,9 +11,13 @@
 
 
 ## Controller
-![image](https://github.com/user-attachments/assets/036eaee2-24e9-48bd-af1d-06aeba7539d4)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/9f9c5661-f8c4-4909-946c-75a9db3cfca4">
 
 ## Databse
+to set up the configration of the databse, we shall check the file ``` .env ```. In case of Laravel project protject inistilization, if i haven't create a databse, I can run the comman line:
+
+``` php artisan migrate ```
+
 
 ## Assignment
 

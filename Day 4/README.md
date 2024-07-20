@@ -11,8 +11,6 @@
 
 
 
-## Controller
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/9f9c5661-f8c4-4909-946c-75a9db3cfca4">
 
 ## Databse
 to set up the configration of the databse, we shall check the file ``` .env ```. 
@@ -49,6 +47,30 @@ Then to push these changes into out databse, we write
 Now we have the cars table in our db
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/f0a94e6c-2f44-46f2-85e2-3e2ee61119a1">
+
+## Controller
+
+![image](https://github.com/user-attachments/assets/6e68801c-4436-46e8-ba46-8f1b3e6037c3)
+
+After that we will create the model, it has to be single, and 1st capital letter, since it's a class. We will use the coman
+
+``` php artisan make:model Car ```
+
+Then, in the app dir, in the model dir, a new car.php file will be created. We will add to it
+
+```
+
+class Car extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'carTitle',
+        'description',
+        'price',
+        'published'
+    ];
+}
+```
 
 ## Assignment
 

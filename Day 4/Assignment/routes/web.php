@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CarController;
+use App\Http\Controllers\ClassesController;
 
-Route::get('cars/create', [CarController::class, 'create'])->name('cars.create');
-Route::post('cars', [CarController::class, 'store'])->name('cars.store');
+Route::get('/add_car', [ClassesController::class, 'create'])->name('cars.create');
+Route::post('/cars', [ClassesController::class, 'store'])->name('cars.store');
+?>

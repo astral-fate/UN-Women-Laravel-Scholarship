@@ -70,3 +70,7 @@ After these changes we have t update the databse using this command
 ## Assignment
 
 For the ```classes``` table, launch ```index``` and display data there.
+![image](https://github.com/user-attachments/assets/67bd1b9e-d12b-45ae-b04b-012c20dff022)
+
+
+![image](https://github.com/user-attachments/assets/75296f1a-51f1-47ca-abd9-6f5bf9863d6a)

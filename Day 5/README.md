@@ -8,11 +8,6 @@ We need to follow a specfic rules in order for Laravel to make the integeration
 Assosiated array contains of key and value
 
 ```
-if(isset($request->published)) {
-        $pub = true;
-        } else {
-        $pub = false;
-        }  
 
 $data = [
 //'k' => 'v'
@@ -67,6 +62,10 @@ Then we modify the HTML templete to include for each as follow:
             </tr>
             @endforeach
 ```
+
+After these changes we have t update the databse using this command
+
+``` php artisan migrate:rollback   ```
 
 ## Assignment
 

@@ -11,42 +11,41 @@
 
 In the context of rest API, the diffrences between Patch and put are:
 
-- Purpose:
+### Purpose:
 
-PUT: Used to update an existing resource or create a new one if it doesn't exist (upsert operation).
-PATCH: Used to partially modify an existing resource by updating only specific fields.
-
-
-- Request Payload:
-
-* PUT: Requires sending the entire resource body in the request, even if only a few fields need to be updated.
- PATCH: Allows sending only the fields that need to be changed, making it more efficient for partial updates.
+- PUT: Used to update an existing resource or create a new one if it doesn't exist (upsert operation).
+- PATCH: Used to partially modify an existing resource by updating only specific fields.
 
 
-- Resource Creation:
+### Request Payload:
+
+- PUT: Requires sending the entire resource body in the request, even if only a few fields need to be updated.
+ - PATCH: Allows sending only the fields that need to be changed, making it more efficient for partial updates.
+
+
+### Resource Creation:
 
 * PUT: Can create a new resource if it doesn't exist (when supporting upsert operations).
 * PATCH: Typically used only for updating existing resources, not for creation.
 
-
-- Server Behavior:
+### Server Behavior:
 
 * PUT: Replaces the entire existing resource with the new data sent in the request.
 * PATCH: Modifies only the specified fields of the existing resource.
 
 
-- Idempotency:
+### Idempotency:
 
 - Both PUT and PATCH are considered idempotent, meaning multiple identical requests should have the same effect as a single request.
 
 
-- Use Cases:
+### Use Cases:
 
-PUT: Best for updating entire resources or when you want to ensure all fields are explicitly set.
-PATCH: Ideal for updating specific fields without affecting the rest of the resource, especially useful for large resources where sending the entire body would be inefficient.
+- PUT: Best for updating entire resources or when you want to ensure all fields are explicitly set.
+- PATCH: Ideal for updating specific fields without affecting the rest of the resource, especially useful for large resources where sending the entire body would be inefficient.
 
 
-- Error Handling:
+### Error Handling:
 
 * PUT: May return 404 if the resource doesn't exist (when not supporting upsert).
 * PATCH: Typically used on existing resources, so 404 errors are less common.

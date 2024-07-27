@@ -1,4 +1,11 @@
 
+
+## Table of content
+- [Update](#Update)
+- [Edit](#Edit)
+- [Delete](#Delete)
+- [Assignment](#Assignment)
+  
 ## Assignment
 
 - difference between patch and put request

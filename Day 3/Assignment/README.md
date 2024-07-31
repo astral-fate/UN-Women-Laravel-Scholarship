@@ -61,7 +61,7 @@ Get-ChildItem -Path $source -Exclude $exclude | ForEach-Object {
 ## Step 4 pushing the code into the repo
 
 ```
-cd "Day 3\Assignment"
+cd "C:\xampp\htdocs\Day3\UN-Women-Laravel-Scholarship\Day 3\Assignment"
 git add .
 git commit -m "Added project files excluding the cloned repo to the Assignment directory"
 

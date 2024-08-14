@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b5cc097f-7992-47e5-b236-a0c3ff27d98b)<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -10,6 +10,7 @@
 ## Assignment
 - modify CarController, so it can add category_id and update it
 - use @selected() directive in edit car blade file
+
 
 
 ![image](https://github.com/user-attachments/assets/de15eb80-d436-4a5b-83e2-9d5044e21a4f)

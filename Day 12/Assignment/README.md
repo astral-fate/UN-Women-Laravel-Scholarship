@@ -2,8 +2,20 @@
 
 ## Assignment
 
+## Step 1: Edit the contact us from
 
 
+## Step 2: Create a Contact Controller
+
+``` php artisan make:controller ContactController  ```
+
+## Step 3: Create a mail configuration 
+
+Create a mail
+
+``` php artisan make:mail ContactFormMail ```
+Inside it we 
+    
 use the contact us form and send email to a specific user with the data provided by user
 
 - documentation:

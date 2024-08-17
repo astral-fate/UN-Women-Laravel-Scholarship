@@ -14,6 +14,9 @@
 Create a mail
 
 ``` php artisan make:mail ContactFormMail ```
+
+<br> 
+
 Inside it we 
     
 use the contact us form and send email to a specific user with the data provided by user

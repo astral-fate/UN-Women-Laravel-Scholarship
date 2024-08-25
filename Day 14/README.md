@@ -5,7 +5,7 @@
 
 
 
-``` composer require mcamara/laravel-localization 
+``` composer require mcamara/laravel-localization  ```
 
 
 ``` php artisan migrate ```

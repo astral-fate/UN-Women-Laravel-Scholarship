@@ -4,9 +4,11 @@
 - validation and error messages included
 
 
-```
-composer require mcamara/laravel-localization
-```
+
+``` composer require mcamara/laravel-localization 
+
+
+``` php artisan migrate ```
 
 
  ### Oprional

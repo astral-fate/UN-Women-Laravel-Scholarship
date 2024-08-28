@@ -23,7 +23,7 @@
 
 ``` php artisan make:seeder CategorySeeder ```
 
-php artisan make:migration add_category_id_to_cars_table --table=cars
+``` php artisan make:migration add_category_id_to_cars_table --table=cars ```
 
 ``` php artisan db:seed ```
 

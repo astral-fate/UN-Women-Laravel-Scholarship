@@ -13,9 +13,9 @@ class BackupDatabase extends Command
     public function handle()
     {
         $databaseName = config('database.connections.mysql.database');
-        $username = 'root';  // Using root as per your privileges
-        $password = '';      // Assuming no password for root, adjust if necessary
-        $host = 'localhost'; // Using localhost as it's in your privileges
+        $username = 'root';  
+        $password = '';     
+        $host = 'localhost'; 
         $port = config('database.connections.mysql.port', '3306');
 
         $filename = $this->option('filename') ?? $databaseName . '_' . now()->format('Y-m-d_H-i-s') . '.sql';

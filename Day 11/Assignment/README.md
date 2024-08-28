@@ -11,7 +11,23 @@
 - modify CarController, so it can add category_id and update it
 - use @selected() directive in edit car blade file
 
+## MCV Set-up
 
+
+
+``` php artisan make:migration create_categories_table```
+
+``` php artisan make:model Category ```
+
+``` php artisan migrate ```
+
+``` php artisan make:seeder CategorySeeder ```
+
+php artisan make:migration add_category_id_to_cars_table --table=cars
+
+``` php artisan db:seed ```
+
+``` php artisan make:controller CarController -r ```
 
 ![image](https://github.com/user-attachments/assets/de15eb80-d436-4a5b-83e2-9d5044e21a4f)
 

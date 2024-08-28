@@ -3,6 +3,31 @@
 
 ## Assignment
 
+## Step 1: Create Backup Database
+
+``` php artisan make:command BackupDatabase ```
+
+## Step 2: Set up db Credentials
+
+```
+
+ {
+        $databaseName = config('database.connections.mysql.database');
+        $username = 'root';  
+        $password = '';      
+        $host = 'localhost'; 
+        $port = config('database.connections.mysql.port', '3306');
+
+```
+
+## Step 3: backup data
+
+``` php artisan backup:database ```
+
+
+## Step 4: saved sql database
+
+![Screenshot 2024-08-28 151545](https://github.com/user-attachments/assets/df6bf261-8b54-45f3-9178-cc1e5b31c8dd)
 
 ## Refrences 
 
